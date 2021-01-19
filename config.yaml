@@ -1,0 +1,86 @@
+# 配置的所有内容见：
+# https://gohugo.io/getting-started/configuration/#all-configuration-settings
+relativeURLs: true
+enableRobotsTXT: true
+hasCJKLanguage: true
+sectionPagesMenu: main
+disableKinds:
+- taxonomy
+- taxonomyTerm
+languageCode: zh-cn
+defaultContentLanguage: zh
+title: Five Six Seven Eight
+pluralizeListTitles: false
+metaDataFormat: yaml
+theme: cupper-hugo-theme
+permalinks:
+  post: /:filename/
+imaging:
+  quality: 99
+params:
+  description: "[@zero@1234.as](https://1234.as/@zero/) 的延伸."
+  footer: 
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  codePenUser: Zero
+  katex: true
+  hideHeaderLinks: false
+  search: true
+  showThemeSwitcher: true
+  moveFooterToHeader: true
+  customCss:
+    - css/table.css
+    - css/indent.css
+    - css/button.css
+  # customJs:
+  #   - js/custom_01.js
+  #   - js/custom_02.js
+
+menu:
+  nav:
+    - name: 主页
+      url: /
+      weight: 1
+    - name: 文章
+      url: /post/
+      weight: 2
+    - name: 季度嘟文精华展
+      url: /exhibition/
+      weight: 3
+    - name: 关于
+      url: /about/
+      weight: 4
+    - name: RSS
+      url: /index.xml
+      weight: 5
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2

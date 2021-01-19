@@ -1,0 +1,28 @@
+- id: skip_to_content
+  translation: 跳到内容
+- id: nav_main_navigation
+  translation: 导航栏
+- id: nav_button_menu
+  translation: 菜单
+- id: discuss_show_comments_button
+  translation: 显示内容
+- id: discuss_comments_disabled
+  translation: "Disqus 评论已被禁用."
+- id: discuss_js_disabled
+  translation: "启用 JavaScript 来查看 Disqus 评论."
+- id: dark_theme
+  translation: "黑暗主题："
+- id: table_of_contents
+  translation: 目录
+- id: publish_date
+  translation: "发表日期："
+- id: last_updated
+  translation: "最近修改："
+- id: tags
+  translation: "标签："
+- id: aria_label_tags
+  translation: 标签
+- id: search_placeholder
+  translation: 搜索标题……
+- id: search_aria_label
+  translation: 搜索标题

@@ -1,0 +1,9 @@
+table {
+    text-align: left;
+    table-layout: fixed;
+    width: auto;
+    border-collapse: collapse;
+}
+.main-and-footer {
+    overflow: auto;
+}
