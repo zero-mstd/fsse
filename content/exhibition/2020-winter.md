@@ -162,6 +162,10 @@ date: 2021-01-18
 
 ---
 
+<iframe src="https://1234.as/@zero/105168962979693841/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" allowfullscreen="allowfullscreen"></iframe>
+
+---
+
 <iframe src="https://1234.as/@zero/105214455959613869/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" allowfullscreen="allowfullscreen"></iframe>
 
 ---
