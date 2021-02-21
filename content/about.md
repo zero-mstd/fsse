@@ -11,7 +11,7 @@ date: 2020-10-18
 
 ## 本站的技术
 
-本站由静态网站生成器 [Hugo](https://gohugo.io/)生成. 主题是 [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). 部署于 [Netlify](https://www.netlify.com/) 和 [GitHub Pages](https://pages.github.com/).
+本站由静态网站生成器 [Hugo](https://gohugo.io/) 生成. 主题是 [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). 部署于 [Netlify](https://www.netlify.com/) 和 [GitHub Pages](https://pages.github.com/).
 
 ## 联系我
 
